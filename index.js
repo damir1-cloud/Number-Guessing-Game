@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 let restartAgain = false;
-console.log(chalk.green.bold("Welcome to the Number Guessing Game!\n Select a number from 1 to 10"));
+console.log(chalk.green.bold("Welcome to the Number Guessing Game!\n"));
 // first loop added restart and abort feature
 do {
     const computerGeneratedNumber = Math.floor(Math.random() * 10) + 1;
